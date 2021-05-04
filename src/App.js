@@ -33,7 +33,7 @@ function App() {
             Please check out my art below!
           </p>
           <p>
-            Contact information: <a href="mailto:teavern.arts@gmail.com">teavern.arts@gmail.com</a>
+            Contact information: <a href="mailto:teavern.draws@gmail.com">teavern.draws@gmail.com</a>
           </p>
 
           <p>
