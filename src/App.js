@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { Jumbotron } from 'react-bootstrap';
-import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import ImageGallery from "./ImageGallery.js"
 
 function App() {
   return (
@@ -12,9 +12,10 @@ function App() {
         .jumbotron {
             color: #1d252b;
           }
-        img {
+        .galleryImage {
           object-fit: contain;
-          height: 100vh;
+          width: 60vh;
+          height: 60vh;
         }
         h1 {
           font-family: 'Montserrat', sans-serif;
@@ -40,17 +41,8 @@ function App() {
             Do note that this site is heavily in progress.
           </p>
         </Jumbotron>
-
-        <Carousel plugins={['arrows']}>
-          <img src="art/1.png"/>
-          <img src="art/2.jpg"/>
-          <img src="art/3.png"/>
-          <img src="art/4.jpg"/>
-          <img src="art/5.png"/>
-          <img src="art/6.jpg"/>
-        </Carousel>
+        <ImageGallery/>
     </div>
   );
 }
-
 export default App;
