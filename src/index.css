@@ -1,0 +1,82 @@
+.body {
+  margin: 0;
+  background-color: #181e2b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+}
+.mocha {
+  width: 40%;
+  height: auto;
+}
+.icon {
+  width: 3em;
+  height: auto;
+  border-spacing: 0.2em;
+}
+
+.pricesheet {
+  width: 50vw;
+  height: auto;
+}
+
+.artcard {
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  border-spacing: 1%;
+  align-items: center;
+}
+h1 {
+  font-family: 'Montserrat', serif;
+  font-size: 200pt;
+  text-align: left;
+  color: snow;
+}
+h2 {
+  font-family: 'Montserrat', serif;
+  font-size: 200pt;
+  text-align: left;
+  color: snow;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20pt;
+  color: snow;
+  text-align: justify;
+}
+
+.tos {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20pt;
+  color: snow;
+  text-align: justify;
+}
+
+.notice {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20pt;
+  color: crimson;
+  text-align: center;
+}
+
+.grid-item {
+  float: right;
+  width: 15vw;
+  height: auto;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+}
+
+.grid-item-2 {
+  float: right;
+  width: auto;
+  height: 15vw;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+}
+
+.separator {
+  border-bottom: 5px bottom;
+}
