@@ -5,7 +5,7 @@ import { ResponsiveMasonry } from 'react-responsive-masonry'
 import Masonry from 'react-responsive-masonry'
 
 class Gallery extends React.Component {
-    num_images = 17;
+    num_images = 22;
 
     renderCardMap() {
 
@@ -13,7 +13,7 @@ class Gallery extends React.Component {
     render() {
         var galleryItems = [];
         for (var i = this.num_images; i >= 1; i--) {
-            var str = 'art/'+i+'.jpg';
+            var str = 'art/gallery/'+i+'.jpg';
             galleryItems.push(<ArtCard url={str}></ArtCard>);
         }
         return (

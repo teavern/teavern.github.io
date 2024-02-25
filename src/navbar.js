@@ -16,8 +16,8 @@ function Navigation() {
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/#/commissions">Commissions</Nav.Link>
-                        <Nav.Link href="/#/gallery">Gallery</Nav.Link>
+                        <Nav.Link href="/commissions">Commissions</Nav.Link>
+                        <Nav.Link href="/gallery">Gallery</Nav.Link>
                         <NavDropdown title="Links" id="basic-nav-dropdown">
                             <NavDropdown.Item href="https://twitter.com/teavernart" target="_blank">Twitter</NavDropdown.Item>
                             <NavDropdown.Item href="https://furaffinity.net/user/teavern" target="_blank">Furaffinity</NavDropdown.Item>
