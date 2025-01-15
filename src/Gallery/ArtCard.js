@@ -12,7 +12,7 @@ function ArtCard(props) {
     const handleShow = () => setShow(true);
     return (
         <>
-            <a href="#"><img class='artcard' src={props.url} onClick={handleShow} /></a>
+            <a href="/#/gallery/#"><img class='artcard' src={props.url} onClick={handleShow} /></a>
 
             <Modal show={show} onHide={handleClose} size="lg">
                 <Modal.Body>
