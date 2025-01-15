@@ -8,9 +8,9 @@ function Commissions() {
         <Container>
             <h1>Commission Info</h1>
             <div class="notice">
-                <b>NOTICE</b>: Commissions are opened via twitter or furaffinity where the latest jounral/tweet will be a link to a form that can be filled out.
+                <b>NOTICE</b>: Commissions are opened via furaffinity/Bluesky/Telegram where the latest journal/post will be a link to a form that can be filled out.
             </div>
-            <h2><u>Last Updated: January 1st, 2023</u></h2>
+            <h2><u>Last Updated: January 15th, 2025</u></h2>
             <a href="art/Prices.png" target="_blank"><img className="pricesheet" src='art/Prices.png'></img></a>
             <h1>Prices</h1>
             <div class="tos">
@@ -20,16 +20,16 @@ function Commissions() {
                             <u>Basic Sketch</u>:
                             <li>A basic, uncolored drawing with minimal clean up</li>
                             <li>$50 per character</li>
-                            <li>Backgrounds start at $10</li>
+                            <li>No option for backgrounds</li>
                         </ul>
                     </Col>
                     <Col>
                         <ul>
                             <u>Colored Sketch</u>:
                             <li>A cleaned up sketch with color</li>
-                            <li>$70 base price</li>
-                            <li>Additional characters are +$50</li>
-                            <li>Backgrounds start at $20</li>
+                            <li>$100 base price</li>
+                            <li>Additional characters are $70 each</li>
+                            <li>Add a colored background for $50</li>
                             <li>Comes with very simple shading</li>
                         </ul>
                     </Col>
@@ -39,7 +39,7 @@ function Commissions() {
                         <ul>
                             <u>Portrait</u>:
                             <li>A detailed rendering of a single character from the chest/neck up</li>
-                            <li>$70 base price</li>
+                            <li>$100 base price</li>
                             <li>No background or very simple background included</li>
                         </ul>
                     </Col>
@@ -47,9 +47,10 @@ function Commissions() {
                         <ul>
                             <u>Painting</u>:
                             <li>A detailed rendering of a character/concept</li>
-                            <li>$140 base price</li>
-                            <li>Additional characters are +$90</li>
-                            <li>Backgrounds are priced by complexity and desired detail</li>
+                            <li>$250 base price</li>
+                            <li>Additional characters are $70</li>
+                            <li>Alts, cutaways, panels are priced by complexity but are generally $40 for more complex stuff</li>
+                            <li>Comes with a painted background</li>
                         </ul>
                     </Col>
                 </Row>
