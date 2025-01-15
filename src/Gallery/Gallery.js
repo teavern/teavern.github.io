@@ -5,7 +5,7 @@ import { ResponsiveMasonry } from 'react-responsive-masonry'
 import Masonry from 'react-responsive-masonry'
 
 class Gallery extends React.Component {
-    num_images = 22;
+    num_images = 25;
 
     renderCardMap() {
 
